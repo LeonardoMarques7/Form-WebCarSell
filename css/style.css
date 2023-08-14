@@ -1,0 +1,189 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    background-color: rgba(255, 147, 205, 0.192);
+}
+
+.box-input {
+    font-weight: bold;
+}
+
+.label-select {
+    font-weight: normal;
+    margin: 5px;
+    padding: 0px;
+}
+
+input:focus, textarea:focus {
+    outline: 0;
+}
+
+input[type="checkbox"],
+input[type="radio"], 
+.label-select,
+.optional-list label {
+    cursor: pointer;
+}
+
+
+h1,
+h2,
+h3, 
+h4, 
+h5 {
+    color: #333;
+}
+
+p, 
+label {
+    color: #444;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+/* Como selecionar um input específico usando o tipo dele -  input[type="tipo_do_input"] */
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"],
+textarea {
+    width: 400px;
+}
+
+textarea {
+    border-color: #ccc;
+    border-radius: 5px;
+    max-width: 400px;
+    max-height: 100px;
+    padding: 10px 5px;
+}
+
+/* Page Header */
+
+.header {
+    height: 160px;
+    padding: 20px;
+    background-color: #6495ed;
+}
+
+.header h3 {
+    color: #fff;
+    margin-top: 0;
+}
+
+/* Form container */
+
+.form-container {
+    background-color: #fffffffd;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -62px;
+    border-radius: 10px;
+}
+
+/* Form header */
+
+.form-header {
+    border-bottom: 1px solid #dfdfdf;
+    height: 45px;
+}
+
+.form-header p {
+    color: #6495ed;
+    border-bottom: 2px solid ;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+}
+
+/* Form body */
+
+.form-body {
+    padding: 30px;
+}
+
+.form-title {
+    margin-bottom: 15px;
+}
+
+.form-body p{
+    margin-bottom: 20px;
+}
+
+.required-field {
+    color: #d80835;
+}
+
+.box-input {
+    margin-bottom: 35px;
+}
+
+.block {
+    display: block;
+}
+
+.optional-box {
+    display: inline-block;
+    margin: 0 30px 30px 0; 
+}
+
+.optional-list li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.box-input p {
+    margin-bottom: 15px;
+}
+
+/**/
+
+.btn-submit {
+    background-color: #6495ed;
+    border-radius: 5px;
+    color: #fff;
+    padding: 12px 30px;
+    width: 100px;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.btn-submit:hover {
+    background-color: transparent;
+    border: 1px solid #6495ed;
+    color: #6495ed;
+    cursor: pointer;
+}
+
+.btn-reset {
+    background-color: #d80835;
+    border-radius: 5px;
+    color: #fff;
+    padding: 12px 30px;
+    width: 100px;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.btn-reset:hover {
+    background-color: transparent;
+    border: 1px solid #d80835;
+    color: #d80835;
+    cursor: pointer;
+}
+
+/* Finalizando Seção de Formulário com HTML5 e pouco de CSS3 (14.08.2023) => {18:05}; */
