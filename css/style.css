@@ -58,14 +58,16 @@ input[type="date"],
 input[type="file"],
 textarea {
     width: 400px;
+    max-width: 100%;
 }
 
 textarea {
     border-color: #ccc;
     border-radius: 5px;
-    max-width: 400px;
     max-height: 100px;
     padding: 10px 5px;
+    width: 400px;
+    max-width: 100%;
 }
 
 /* Page Header */
@@ -90,6 +92,12 @@ textarea {
     position: relative;
     top: -62px;
     border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+    .form-container {
+        width: 90%;
+    }
 }
 
 /* Form header */
