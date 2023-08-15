@@ -11,25 +11,30 @@
 </head>
 <body>
     <div class="container">
+        <!-- Cabeçalho da página -->
         <div class="header">
             <h2 class="titulo-azul">Bem-vindo ao WebCarSell | Cadastre seu Carro para Venda ;)</h2>
         </div>
         <div class="form-container">
+            <!-- Cabeçalho do formulário -->
             <div class="form-header">
                 <p>Formulário</p>
             </div>
+            <!-- Corbo do formulário -->
             <div class="form-body">
                 <h1 class="form-title">&#8675; Cadastre Aqui &#8675;</h1>
                 <p>
                     Descreva as características e marque os opicionais que ele possui
                 </p>
                 <form>
+                    <!-- Título do FORM -->
                     <div class="box-input">
                         <label for="title">
                             Título do Anúncio <span class="required-field">*</span>
                         </label>
                         <input type="text" name="title" id="title" class="block" placeholder="Um título para anunciar o carro" minlength="1" maxlength="30" required>
                     </div>
+                    <!-- Inputs | Textarea -->
                     <div class="box-input">
                         <label for="price">
                             Preço <span class="required-field">*</span>
@@ -66,6 +71,7 @@
                         </label>
                         <input type="date" name="purchase-date" id="purchase-date" class="block" required>
                     </div>
+                    <!-- Radio -->
                     <div class="box-input">
                         <p>Tipo de câmbio <span class="required-field">*</span></p>
                         <input type="radio" name="gear" id="manual">
@@ -73,6 +79,7 @@
                         <input type="radio" name="gear" id="automatico">
                         <label for="automatico" class="label-select">Automático</label>
                     </div>
+                    <!-- Checkbox - Opicionais -->
                     <div class="optional-box">
                         <p>Opicionais</p>
                         <ul class="optional-list">
@@ -114,11 +121,13 @@
                             </li>
                         </ul>
                     </div>
+                    <!-- Input de Arquivo de Imagem -->
                     <div class="box-input">
                         <p>Fotos do Carro: <span class="required-field">*</span></p>
                         <input type="file" multiple accept="image/png, image/jpg" id="images" name="images" required>
                     </div>
 
+                    <!-- Botões de Limpar e Enviar -->
                     <input type="reset" value="Limpar" class="btn-reset">
                     <input type="submit" value="Enviar" class="btn-submit">
 
