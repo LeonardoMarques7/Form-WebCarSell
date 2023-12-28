@@ -48,6 +48,19 @@ input {
     padding: 10px 0;
 }
 
+input:focus {
+    border-bottom: 1px solid #a8a8a8;
+}
+
+textarea:focus {
+    border: 1px solid #a8a8a8;
+}
+
+input::first-letter {
+    color: red;
+    text-transform: uppercase;
+}
+
 /* Como selecionar um input específico usando o tipo dele -  input[type="tipo_do_input"] */
 input[type="text"],
 input[type="number"],
